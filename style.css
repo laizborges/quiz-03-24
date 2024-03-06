@@ -1,0 +1,62 @@
+@charset "utf-8";
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    background-image: url(meninas.webp);
+    background-repeat: no-repeat;
+    background-size: 1400px 700px;
+ 
+  
+
+}
+
+
+
+
+.quiz-container {
+    max-width: 600px;
+    margin: 0 auto;
+    color: rgb(255, 255, 255);
+}
+
+#pergunta {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+#opcoes {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+button {
+    padding: 10px 20px;
+    margin: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 7px;
+    border: none;
+    width: 200px;
+   background-color: pink;
+}
+
+.correto {
+    background-color: #4d94aa;
+ margin-left: 200px;
+ margin-right: 200px;
+}
+
+.incorreto {
+    background-color: #e74848;
+    margin-left: 100px;
+ margin-right: 100px;
+}
+
+footer {
+    margin-top: 25%;
+    color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
